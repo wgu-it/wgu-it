@@ -14,3 +14,17 @@
 Route::get('/', function () {
     return view('home');
 });
+
+Route::get('/auth/login', function () {
+    return view('auth.login');
+});
+
+Route::get('/auth/authorize', [
+    'uses' => 'OAuthController@authorizeLink',
+    'as' => 'oauth.authorize',
+]);
+
+Route::get('/auth/callback', [
+    'uses' => 'OAuthController@callback',
+    'as' => 'oauth.callback',
+]);
