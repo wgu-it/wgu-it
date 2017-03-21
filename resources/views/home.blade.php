@@ -60,9 +60,11 @@
           <a class="page-scroll" href="#features">Features</a>
         </li>
         --}}
+        {{--
         <li>
           <a class="page-scroll" href="#contact">Contact</a>
         </li>
+        --}}
       </ul>
     </div>
     <!-- /.navbar-collapse -->
@@ -75,7 +77,7 @@
     <div class="container">
       <h2>Start chatting</h2>
       {{--<h4>We <i class="fa fa-heart"></i> new friends!</h4>--}}
-      <a href="#contact" class="btn btn-outline btn-xl page-scroll">Let's Get Started!</a>
+      <a href="https://wgu-it.slack.com/signup" class="btn btn-outline btn-xl page-scroll" target="_blank">Let's Get Started!</a>
     </div>
   </div>
   <div class="overlay"></div>
